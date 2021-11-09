@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  cursor: default;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  height: 100px;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(1280px - 300px);
+  line-height: 100px;
+}
+
+.logo {
+  margin-top: 29px;
+}
+
+.dropbtn {
+  padding: 14px 16px;
+  margin: 0;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+  border-bottom: #000000 solid 3px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 1280px;
+  left: 320px;
+  border-top: #e5e5e5 solid 3px;
+  background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column {
+  display: flex;
+  margin: 40px 0 40px 200px;
+  flex-direction: column;
+  float: left;
+}
+
+.content-header {
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.column > a {
+  height: 50px;
+  font-size: 15px;
+}
+
+.send-bt {
+  width: 120px;
+  height: 43px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #fede22;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
