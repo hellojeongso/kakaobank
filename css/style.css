@@ -140,7 +140,7 @@ span > img {
 .account-box {
   display: flex;
   width: 1280px;
-  height: 940px;
+  height: 920px;
   margin: auto;
   padding-top: 120px;
   background-color: #ffffff;
@@ -150,9 +150,11 @@ span > img {
 .account-left {
   margin: 0 100px;
 }
+
+/* 498*750 */
 .account-left > img {
-  width: 510px;
-  height: 700px;
+  width: 480px;
+  height: 680px;
   transition: all 0.3s linear;
 }
 
@@ -197,28 +199,28 @@ span > img {
 .saving-box {
   display: flex;
   width: 1280px;
-  height: 985px;
+  height: 1025px;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 112px;
   background-color: #ffffff;
 }
 
 .saving-left {
-  margin: 0 100px;
+  margin: 0 90px;
 }
 .saving-left > img {
-  width: 500px;
+  width: 490px;
   height: 120px;
 }
 
-/* 390*770 */
+/* 365*750 */
 .saving-right > img {
-  width: 435px;
-  height: 770px;
+  width: 455px;
+  height: 800px;
 }
 
 .saving-title {
-  padding: 100px 0 50px 0;
+  padding: 150px 0 50px 0;
   font-size: 48px;
   font-weight: 800;
   line-height: 60px;
@@ -232,6 +234,56 @@ span > img {
 
 .saving-left button {
   width: 197px;
+  height: 70px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #f6f6f6;
+  border: none;
+  cursor: pointer;
+}
+
+/* Main-moim */
+.moim {
+  width: 100%;
+}
+
+.moim-box {
+  display: flex;
+  width: 1280px;
+  height: 945px;
+  margin: auto;
+  padding-top: 135px;
+  background-color: #ffffff;
+}
+
+/* 428 622 */
+.moim-left > img {
+  width: 510px;
+  height: 675px;
+  margin: 0 100px;
+  transition: all 0.3s linear;
+}
+
+.moim-left > img:hover {
+  transform: scale(1.1);
+}
+
+.moim-title {
+  padding: 150px 0 50px 0;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.moim-detail {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.moim-right > button {
+  width: 320px;
   height: 70px;
   margin-bottom: 50px;
   border-radius: 10px;
