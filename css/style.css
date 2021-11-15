@@ -339,3 +339,56 @@ span > img {
   border: none;
   cursor: pointer;
 }
+
+/* Main-foreign */
+.foreign {
+  width: 100%;
+}
+
+.foreign-box {
+  display: flex;
+  width: 1280px;
+  height: 1020px;
+  margin: auto;
+  padding-top: 115px;
+  background-color: #ffffff;
+}
+
+.foreign-title {
+  padding: 170px 0 50px 0;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.foreign-detail {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+/* 363*752 */
+.foreign-left > img {
+  width: 450px;
+  height: 790px;
+  transition: all 0.3s linear;
+}
+
+.foreign-left > img:hover {
+  transform: scale(1.1);
+}
+
+.foreign-left {
+  margin: 0 150px;
+}
+
+.foreign-right > button {
+  width: 320px;
+  height: 70px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #f6f6f6;
+  border: none;
+  cursor: pointer;
+}
