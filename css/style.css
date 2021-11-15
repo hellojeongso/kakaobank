@@ -257,7 +257,7 @@ span > img {
   background-color: #ffffff;
 }
 
-/* 428 622 */
+/* 428*622 */
 .moim-left > img {
   width: 510px;
   height: 675px;
@@ -283,6 +283,53 @@ span > img {
 }
 
 .moim-right > button {
+  width: 320px;
+  height: 70px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #f6f6f6;
+  border: none;
+  cursor: pointer;
+}
+
+/* Main-weeks */
+.weeks {
+  width: 100%;
+}
+
+.weeks-box {
+  display: flex;
+  width: 1280px;
+  height: 800px;
+  margin: auto;
+  padding-top: 172px;
+  background-color: #ffffff;
+}
+
+.weeks-title {
+  padding: 65px 0 50px 0;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.weeks-detail {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.weeks-left {
+  margin: 0 150px;
+}
+/* 510*495 */
+.weeks-right > img {
+  width: 545px;
+  height: 460px;
+}
+
+.weeks-left > button {
   width: 320px;
   height: 70px;
   margin-bottom: 50px;
