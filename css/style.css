@@ -392,3 +392,60 @@ span > img {
   border: none;
   cursor: pointer;
 }
+
+/* Main-loan */
+.loan {
+  width: 100%;
+  background-color: #333b58;
+}
+
+.loan-box {
+  width: 1280px;
+  height: 945px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+.loan-title {
+  padding-bottom: 25px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.loan-detail {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  color: #a7aab7;
+  text-align: center;
+}
+
+.loan-buttons {
+  text-align: center;
+}
+.loan-buttons > button {
+  width: 200px;
+  height: 55px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #454d67;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.logn-box > img {
+  text-align: center;
+}
+
+/* 386 628 */
+.loan-box > img {
+  display: block;
+  width: 430px;
+  height: 550px;
+  margin: auto;
+}
