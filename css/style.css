@@ -401,7 +401,7 @@ span > img {
 
 .loan-box {
   width: 1280px;
-  height: 945px;
+  height: 944px;
   margin: auto;
   padding-top: 150px;
 }
@@ -442,10 +442,50 @@ span > img {
   text-align: center;
 }
 
-/* 386 628 */
 .loan-box > img {
   display: block;
   width: 430px;
-  height: 550px;
+  height: 551px;
   margin: auto;
+}
+
+/* Main-card */
+.card {
+  width: 100%;
+}
+
+.card-box {
+  width: 1280px;
+  height: 1050px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+.card-title {
+  padding-bottom: 25px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: center;
+}
+
+.card-detail {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.card-buttons {
+  text-align: center;
+}
+.card-buttons > button {
+  width: 325px;
+  height: 70px;
+  margin-bottom: 95px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #f6f6f6;
+  border: none;
+  cursor: pointer;
 }
