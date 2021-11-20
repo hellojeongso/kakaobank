@@ -456,7 +456,7 @@ span > img {
 
 .card-box {
   width: 1280px;
-  height: 1050px;
+  height: 1072px;
   margin: auto;
   padding-top: 150px;
 }
@@ -488,4 +488,55 @@ span > img {
   background-color: #f6f6f6;
   border: none;
   cursor: pointer;
+}
+
+/* Main-technology */
+.technology {
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.technology-box {
+  width: 1280px;
+  height: 1020px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+.technology-title {
+  padding-bottom: 25px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: center;
+}
+
+.technology-img > img {
+  width: 100%;
+  height: 350px;
+}
+
+.technology-detail > ul {
+  display: flex;
+}
+
+.technology-detail > ul > li {
+  margin: 50px 50px 0 50px;
+  text-align: center;
+}
+
+.technology-detail > ul > li:nth-child(3) {
+  margin: 145px;
+}
+
+.technology-detail > ul > li > strong {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.technology-detail > ul > li > p {
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  color: #666666;
 }
