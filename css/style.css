@@ -5,6 +5,7 @@
 body {
   font-family: "Nanum Gothic", sans-serif;
   cursor: default;
+  color: #333;
 }
 
 /* Header */
@@ -31,6 +32,10 @@ body {
   width: calc(1280px - 200px);
   line-height: 100px;
   z-index: 9999;
+}
+
+.hamburger-btn {
+  display: none;
 }
 
 .mobile-menu {

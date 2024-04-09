@@ -23,6 +23,7 @@
     }
 
     .hamburger-btn {
+        display: block;
         position: absolute;
         top: 24px;
         right: 10px;
