@@ -1,0 +1,424 @@
+@media (max-width:768px) {
+    body {
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .header {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .hamburger-btn {
+        position: absolute;
+        top: 24px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        border: none;
+        z-index: 9999;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+    .hamburger-btn i {
+        transition: transform 0.3s;
+    }
+
+    .hamburger-btn.active i {
+        transform: rotate(90deg);
+    }
+
+    .expanded .expand-btn {
+        transform: translateY(-50%) rotate(180deg);
+    }
+  
+    
+    /* 모바일 메뉴 스타일 */
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9998;
+        display: none;
+    }
+    
+    .mobile-menu.active {
+        display: block;
+    }
+    
+    .menu-wrapper {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        overflow-y: auto;
+    }
+    
+    .menu-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .menu-item {
+        padding: 40px 10px;
+        border-bottom: 1px solid #ccc;
+        cursor: pointer;
+    }
+
+    .menu-item.active {
+        background-color: #f7f7f7;
+    }
+    .menu-item a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .fa-angle-down {
+        position: absolute;
+        right: 28px;
+        }
+
+    .sub-menu {
+        display: none;
+    }
+
+    .sub-menu.active {
+        display: block;
+        padding: 40px 0 0 0;
+    }
+
+    .sub-menu.active li {
+        padding: 40px 0;
+        background-color: #f7f7f7;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .sub-menu.active:nth-child(1) {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .rotate {
+        transform: rotate(180deg);
+    }
+
+    /* Intro */
+    .intro-box {
+        width: 100%;
+    }
+
+    .swiper-container {
+        margin-top: 100px;
+    }
+
+    .swiper {
+        height: auto;
+    }
+
+    .intro-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .swiper {
+        height: 600px;
+    }
+
+    .intro-title {
+        text-align: center;
+        padding: 30px 0 0 0;
+        font-size: 38px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .intro-detail {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .slide1 {
+        background-image: url(../images/m-main-1.png);
+    }
+
+    .slide2 {
+        background-image: url(../images/m-main-2.png);
+    }
+
+    .slide3 {
+        background-image: url(../images/m-main-3.png);
+    }
+
+    .banner {
+        width: 100%;
+        height: 70px;
+        box-shadow: 14px 20px 25px 0 rgba(0, 0, 0, 0.16);
+    }
+
+    /* Account */
+    .account-box,
+    .saving-box,
+    .moim-box,
+    .weeks-box,
+    .foreign-box,
+    .loan-box,
+    .card-box,
+    .technology-box,
+    .footer-box {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .account-left {
+        margin: 0;
+    }
+
+    .account-left > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .account-right,
+    .moim-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .account-title,
+    .moim-title {
+        font-size: 32px;
+        line-height: 50px;
+        padding: 50px 0 20px 0;
+    }
+
+    .account-detail,
+    .moim-detail {
+        padding-bottom: 20px;
+      }
+
+    .account-right > button,
+    .saving-left > button,
+    .moim-right > button {
+        width: 100%;    
+    }
+
+    .account-detail {
+        font-size: 16px;
+    }
+
+    /* Saving */
+    .saving-left,
+    .foreign-right {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .saving-left button {
+        margin-bottom: 10px;
+    }
+
+    .saving-title,
+    .weeks-title,
+    .foreign-title,
+    .loan-title,
+    .card-title  {
+        padding: 0 0 20px 0;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .saving-detail,
+    .card-detail {
+        padding-bottom: 20px;
+    }
+
+    .saving-detail {
+        font-size: 16px;
+    }
+
+    .saving-left > img {
+        width: 100%;
+        height: auto;
+        margin: 30px 0 40px 0;
+    }
+
+    .saving-right > img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Moim */
+    .moim-left > img {
+        width:100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .moim-right > button {
+        margin-bottom: 0;
+    }
+
+    .moim-detail {
+        font-size: 16px;
+    }
+
+    /* Weeks */
+    .weeks-box {
+        flex-direction: column;
+    }
+
+    .weeks-left,
+    .foreign-left {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .weeks-detail {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .weeks-left > button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .weeks-right > img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Foreign */
+    .foreign-left > img,
+    .loan-box > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .foreign-title {
+        padding-top: 50px;
+    }
+
+    .foreign-right > button {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .foreign-detail {
+        font-size: 16px;
+    }
+
+    /* Loan */
+    .technology-title {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .loan-title {
+        font-size: 32px;
+    }
+
+    .loan-detail {
+        padding-bottom: 20px;
+    }
+
+    .loan-buttons > button {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+
+    /* Card */
+    .card-buttons > button {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-detail {
+        font-size: 16px;
+    }
+
+    /* Technology */
+    .technology-img > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .technology-detail > ul {
+        flex-direction: column;
+    }
+
+    .technology-detail > ul > li > p {
+        font-size: 15px;
+    }
+
+    .technology-detail > ul > li:nth-child(3){
+        margin: 0;
+    }
+
+    .technology-detail > ul > li > strong {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 50px 0 50px 0;
+    }
+    .footer-box {
+        padding: 0;   
+    }
+
+    .footer-1 {
+        flex-wrap: wrap;
+        line-height: 25px;
+    }
+
+    .footer-2 {
+        flex-direction: column;
+    }
+
+    .footer-box > ul:nth-child(2) > li:nth-child(1) {
+        line-height: 25px;
+    }
+
+}
